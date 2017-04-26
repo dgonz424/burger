@@ -29,7 +29,7 @@
 
         <form action="/{{this.id}}?_method=PUT" method="POST">
           <input type="hidden" name="devoured" value="false">
-          <button type="submit">WAKE UP!</button>
+          <button type="submit">DEVOUR!</button>
         </form>
 
         {{> burgers/delete-burger}}
@@ -49,7 +49,7 @@
   <div class="form-group">
     <label for="bur">devoured?</label><br>
     <input type="radio" name="devoured" value="1" checked> devoured!<br>
-    <input type="radio" name="devoured" value="0"> Awake
+    <input type="radio" name="devoured" value="0"> not devoured
   </div>
 
   <button type="submit">Add burger</button>
